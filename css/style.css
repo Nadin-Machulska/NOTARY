@@ -242,11 +242,11 @@ footer {
   height: 229px;
 }
 
-.about-us__footer {
+.footer__about-us {
   display: flex;
   gap: 15px;
 }
-.about-us__footer h4 {
+.footer__about-us h4 {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 21px;
@@ -255,39 +255,39 @@ footer {
   padding: 0 15px;
 }
 
-.social__footer {
+.footer__social {
   padding-left: 34px;
 }
-.social__footer span {
+.footer__social span {
   display: flex;
   gap: 20px;
 }
-.social__footer span i {
+.footer__social span i {
   color: white;
   padding-top: 5px;
   font-size: 18px;
   color: white;
 }
-.social__footer span a {
+.footer__social span a {
   font-weight: 500;
   color: white;
   font-size: 18px;
   text-decoration: none;
   font-family: "Montserrat";
 }
-.social__footer a:hover {
+.footer__social a:hover {
   color: rgb(181, 22, 212);
 }
 
-.services__footer ul {
+.footer__services ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.services__footer ul li {
+.footer__services ul li {
   list-style-type: none;
 }
-.services__footer ul li a {
+.footer__services ul li a {
   cursor: pointer;
   font-family: "Montserrat";
   font-weight: 500;
@@ -296,7 +296,7 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
 }
-.services__footer ul li a:hover {
+.footer__services ul li a:hover {
   padding-left: 15px;
   border-left: 4px solid brown;
 }
@@ -581,16 +581,16 @@ footer {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .about-us__footer h4 {
+  .footer__about-us h4 {
     font-size: calc(10px + 11 * (100vw - 320px) / 780);
   }
-  .social__footer span a {
+  .footer__social span a {
     font-size: calc(11px + 7 * (100vw - 320px) / 780);
   }
-  .social__footer span i {
+  .footer__social span i {
     font-size: calc(11px + 7 * (100vw - 320px) / 780);
   }
-  .services__footer ul li a {
+  .footer__services ul li a {
     font-size: calc(10px + 7 * (100vw - 320px) / 780);
     line-height: 0.5;
   }
@@ -651,12 +651,12 @@ footer {
     background-color: rgba(255, 255, 255, 0.6392156863);
     justify-content: center;
   }
-  .about-us__footer {
+  .footer__about-us {
     flex-direction: column;
     padding-left: 5px;
     gap: 5px;
   }
-  .about-us__footer h4 {
+  .footer__about-us h4 {
     padding: 0;
   }
   .services__container {
@@ -676,13 +676,13 @@ footer {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .services__footer ul {
+  .footer__services ul {
     display: flex;
     flex-direction: column;
     padding-left: 2px;
     margin-top: -7px;
   }
-  .social__footer {
+  .footer__social {
     display: flex;
     flex-direction: column;
     gap: 15px;
