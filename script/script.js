@@ -34,3 +34,14 @@ closeBurgerMenu.addEventListener('click', () => {
   navLinks.classList.remove('visible')
   
 })
+
+const dropDownList = document.querySelectorAll('.services__list');
+const servicesContainer = document.querySelector('.services__container');
+
+// servicesContainer.addEventListener('click', (e) => {
+//   if (e.target.closest('.open-dropdown')){
+//     e.target.nextElementSibling.classList.toggle('down');
+//   } else {
+//     console.log('a')
+//   }
+// })
