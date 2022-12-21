@@ -14,21 +14,18 @@ header {
   display: flex;
   align-items: center;
   max-width: 2012px;
-  margin: 0 auto;
-  gap: 18.5%;
+  gap: 8.5%;
   height: 100%;
   justify-content: space-around;
 }
 
 .header__logo {
-  width: 50px;
-  height: 50px;
+  width: 460px;
+  height: 409px;
 }
 .header__logo img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .header__nav {
@@ -347,7 +344,8 @@ footer {
 
 .nav {
   flex-wrap: nowrap;
-  height: 41%;
+  height: 23%;
+  gap: 30px;
 }
 
 .main__nav-items h4 {
@@ -369,6 +367,16 @@ footer {
   color: #000000;
   font-weight: 500;
 }
+.main__nav-items ul {
+  padding-left: 19px;
+}
+.main__nav-items ul li {
+  font-size: 26px;
+  padding-right: 26px;
+  font-weight: 300;
+  font-family: "Open Sans";
+  list-style-type: circle;
+}
 
 .main__nav-sub-items h5 {
   font-size: 33px;
@@ -387,7 +395,7 @@ footer {
   font-weight: 500;
 }
 .main__nav-sub-items ul {
-  padding-left: 19px;
+  padding-left: 33px;
 }
 .main__nav-sub-items ul li {
   font-size: 26px;
@@ -594,6 +602,10 @@ footer {
 }
 
 .slide {
+  display: none;
+}
+
+.slide-second {
   display: none;
 }
 
@@ -1111,7 +1123,6 @@ img.hover-shadow {
     font-size: 20px;
   }
   .second {
-    border: 6px solid grey;
     height: 348px;
     width: 407px;
   }
@@ -1181,7 +1192,7 @@ img.hover-shadow {
     font-size: 20px;
   }
   .nav {
-    height: 15%;
+    height: 20%;
   }
   .main__nav-sub-items h5 {
     font-size: 24px;

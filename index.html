@@ -80,7 +80,43 @@
                     <p>Нотаріальна діялність Бурлак Ростислава Олександровича розпочалася 2001 року, а стаж роботи в юридичній сфері становить більше 20-ти років. Трудовий колектив нотаріуса складається з помічника нотаріуса та двох консультантів. </p>
                 </div>
                 <div class="hero__container second">
-                    <img src="" alt="">
+                    <div class="row-lightbox">
+                        <div class="col">
+                            <img src="assets/svidotstvo.jpg" onclick="openLightboxSecond();toSlideSecond(1)"
+                                class="hover-shadow preview" alt="Сертифікат нотаріуса" />
+                        </div>
+                        <div class="col">
+                            <img src="assets/svidotstvo2.jpg"
+                                onclick="openLightboxSecond();toSlideSecond(2)" class="hover-shadow preview"
+                                alt="Сертифікат нотаріуса." />
+                        </div>
+                    </div>
+                    <div id="Lightbox-second" class="modal">
+                        <span class="close pointer" onclick="closeLightboxSecond()">&times;</span>
+                        <div class="modal-content">
+                            <div class="slide-second">
+                                <img src="assets/svidotstvo.jpg" class="image-slide" alt="Toy car on the road." />
+                            </div>
+                            <div class="slide-second">
+                                <img src="assets/svidotstvo2.jpg"
+                                    class="image-slide" alt="Toy car exploring offroad." />
+                            </div>
+                            <a class="previous" onclick="changeSlideSecond(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlideSecond(1)">&#10095;</a>
+
+                            <div class="dots">
+                                <div class="col">
+                                    <img src="assets/svidotstvo.jpg" class="modal-preview-second hover-shadow"
+                                        onclick="toSlideSecond(1)" alt="Toy car on the road"/>
+                                </div>
+                                <div class="col">
+                                    <img src="assets/svidotstvo2.jpg"
+                                        class="modal-preview-second hover-shadow" onclick="toSlideSecond(2)"
+                                        alt="Toy car exploring offroad." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hero__container third reveal fade-right">
                     <h3>Наш офіс</h3>
@@ -89,22 +125,17 @@
                 <div class="hero__container fourth">
                     <div class="row-lightbox">
                         <div class="col">
-                            <img src="assets/office-photo2.jpg" onclick="openLightbox();toSlide(1)"
+                            <img src="assets/office-photo.jpg" onclick="openLightbox();toSlide(1)"
                                 class="hover-shadow preview" alt="office photo" />
                         </div>
                         <div class="col">
-                            <img src="https://static.pexels.com/photos/574521/pexels-photo-574521.jpeg"
+                            <img src="assets/office2.jpg"
                                 onclick="openLightbox();toSlide(2)" class="hover-shadow preview"
                                 alt="Toy car exploring offroad." />
                         </div>
                         <div class="col">
-                            <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
+                            <img src="assets/office3.jpg"
                                 onclick="openLightbox();toSlide(3)" class="hover-shadow preview"
-                                alt="Toy car in the city." />
-                        </div>
-                        <div class="col">
-                            <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
-                                onclick="openLightbox();toSlide(4)" class="hover-shadow preview"
                                 alt="Toy car in the city." />
                         </div>
                     </div>
@@ -112,45 +143,34 @@
                         <span class="close pointer" onclick="closeLightbox()">&times;</span>
                         <div class="modal-content">
                             <div class="slide">
-                                <img src="assets/office-photo2.jpg" class="image-slide" alt="Toy car on the road." />
+                                <img src="assets/office-photo.jpg" class="image-slide" alt="Toy car on the road." />
                             </div>
                             <div class="slide">
-                                <img src="https://static.pexels.com/photos/574521/pexels-photo-574521.jpeg"
+                                <img src="assets/office2.jpg"
                                     class="image-slide" alt="Toy car exploring offroad." />
                             </div>
                             <div class="slide">
-                                <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
+                                <img src="assets/office3.jpg"
                                     class="image-slide" alt="Toy car in the city." />
                             </div>
-                            <div class="slide">
-                                <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
-                                    class="image-slide" alt="Toy car in the city." />
-                            </div>
-
                             <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
                             <a class="next" onclick="changeSlide(1)">&#10095;</a>
 
                             <div class="dots">
                                 <div class="col">
-                                    <img src="assets/office-photo2.jpg" class="modal-preview hover-shadow"
+                                    <img src="assets/office-photo.jpg" class="modal-preview hover-shadow"
                                         onclick="toSlide(1)" alt="Toy car on the road" />
                                 </div>
                                 <div class="col">
-                                    <img src="https://static.pexels.com/photos/574521/pexels-photo-574521.jpeg"
+                                    <img src="assets/office2.jpg"
                                         class="modal-preview hover-shadow" onclick="toSlide(2)"
                                         alt="Toy car exploring offroad." />
                                 </div>
                                 <div class="col">
-                                    <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
+                                    <img src="assets/office3.jpg"
                                         class="modal-preview hover-shadow" onclick="toSlide(3)"
                                         alt="Toy car in the city." />
                                 </div>
-                                <div class="col">
-                                    <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg"
-                                        class="modal-preview hover-shadow" onclick="toSlide(4)"
-                                        alt="Toy car in the city." />
-                                </div>
-
                             </div>
                         </div>
                     </div>
