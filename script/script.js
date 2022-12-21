@@ -38,10 +38,10 @@ closeBurgerMenu.addEventListener('click', () => {
 const dropDownList = document.querySelectorAll('.services__list');
 const servicesContainer = document.querySelector('.services__container');
 
-// servicesContainer.addEventListener('click', (e) => {
-//   if (e.target.closest('.open-dropdown')){
-//     e.target.nextElementSibling.classList.toggle('down');
-//   } else {
-//     console.log('a')
-//   }
-// })
+servicesContainer.addEventListener('click', (e) => {
+  if (e.target.closest('.open-dropdown')){
+    e.target.nextElementSibling.classList.toggle('down');
+  } else {
+    console.log('a')
+  }
+})
