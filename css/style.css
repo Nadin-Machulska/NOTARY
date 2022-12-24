@@ -355,6 +355,7 @@ footer {
   font-family: "Open Sans";
   border-left: 4px solid #6e2a2a;
   padding-left: 10px;
+  margin-top: 18px;
 }
 .main__nav-items p {
   font-family: "Montserrat";
@@ -569,12 +570,13 @@ footer {
 
 .col {
   float: left;
+  height: 200px;
 }
 .col img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .modal {
@@ -818,6 +820,22 @@ img.hover-shadow {
 .link-up a {
   color: brown;
   font-size: 21px;
+}
+
+.link-up:hover {
+  background: brown;
+}
+.link-up:hover a {
+  color: white;
+}
+
+.link-up:active {
+  background: brown;
+  transition: 1000ms;
+  transform: scale3d(0.8, 0.8, 0.8);
+}
+.link-up:active a {
+  color: white;
 }
 
 @-webkit-keyframes fade-left {
@@ -1228,6 +1246,13 @@ img.hover-shadow {
   }
   .main__nav-items h4 {
     font-size: 30px;
+  }
+  .main__nav-items p {
+    font-family: "Montserrat";
+    font-size: 16px;
+  }
+  .main__nav-items ul li {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 900px) {
