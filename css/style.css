@@ -690,6 +690,7 @@ img.hover-shadow {
    -ms-user-select: none;
        user-select: none;
   -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .next {
@@ -1601,5 +1602,11 @@ img.hover-shadow {
   .modal-content {
     width: 100%;
     top: 16%;
+  }
+  .slide-second {
+    height: 257px;
+  }
+  .image-slide {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
