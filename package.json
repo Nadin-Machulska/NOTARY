@@ -1,0 +1,22 @@
+{
+  "name": "notary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadin-Machulska/NOTARY.git"
+  },
+  "author": "Nadiia Machulska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nadin-Machulska/NOTARY/issues"
+  },
+  "homepage": "https://github.com/Nadin-Machulska/NOTARY#readme",
+  "dependencies": {
+    "notary": "^1.0.0"
+  }
+}
