@@ -22,3 +22,26 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+const openBurgerMenu = document.querySelector('.header__nav-burger');
+const navLinks = document.querySelector('.header__nav-list');
+const closeBurgerMenu = document.querySelector('.header__nav-burger-close');
+
+openBurgerMenu.addEventListener('click', () => {
+  navLinks.classList.add('visible')
+})
+closeBurgerMenu.addEventListener('click', () => {
+  navLinks.classList.remove('visible')
+  
+})
+
+const dropDownList = document.querySelectorAll('.services__list');
+const servicesContainer = document.querySelector('.services__container');
+
+servicesContainer.addEventListener('click', (e) => {
+  if (e.target.closest('.open-dropdown')){
+    e.target.nextElementSibling.classList.toggle('down');
+  } else {
+    console.log('a')
+  }
+})
